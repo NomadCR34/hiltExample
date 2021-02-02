@@ -75,11 +75,11 @@ class MyModule{
         return SomeInterfaceImpl(someString)
     }
 
-    @Singleton
-    @Provides
-    fun provideGson():Gson{
-        return Gson()
-    }
+//    @Singleton
+//    @Provides
+//    fun provideGson():Gson{
+//        return Gson()
+//    }
 
 
 }
