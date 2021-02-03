@@ -17,6 +17,7 @@ class BlogViewModel
 @Inject
 constructor(
     private val mainRepository: MainRepository,
+    private val savedStateHandle: SavedStateHandle
 ):ViewModel(){
 
     private val _dataState:MutableLiveData<DataState<List<Blog>>> = MutableLiveData()
